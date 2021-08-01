@@ -1,0 +1,29 @@
+body {
+    background-image: url(./lake-6476212_1920.jpg);
+    background-attachment: scroll;
+}
+h1 {
+    color: rgba(0, 0, 240, 0.925);
+
+}
+div {
+    background-image: ;
+}
+
+form {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    height: 7px;
+}
+
+.text {
+    font-size: 18px;
+    border: solid blue 1px;
+}
+
+.pass {
+    font-size: 18px;
+    border: solid blue 1px;
+
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="discription" content="this is my website">
+    <title>Test</title>
+    <link rel="stylesheet" href="./learn.css">
+</head>
+
+<body>
+    <!-- <table border="1" >
+        <thead>
+            <tr>
+                <th bgcolor="blue"> البنكالرصيد في</th><th>الأسم</th><th bgcolor="yellow">Id</th>
+            </tr>
+        </thead>
+        <tbody bgcolor="green">
+            <tr>
+                <td>3483749438</td><td>احمد</td><td>1</td>
+            </tr>
+            <tr>
+                <td>43435435</td><td>محمد</td><td>2</td>
+            </tr>
+            <tr>
+                <td>4353545</td><td>عمرو</td><td>3</td>
+            </tr>
+            <tr>
+                <td>3443435</td><td>يوسف</td><td>4</td>
+            </tr>
+            <tr>
+                <td>35457565</td><td>كريم </td><td>5</td>
+            </tr>
+            <tr>
+                <td>43435354</td><td>عباس</td><td>6</td>
+            </tr>
+            <tr>
+                <td>43545464</td><td>العفريت</td><td>7</td>
+            </tr>
+            <tr>
+                <td>68756454</td><td>جعيدي</td><td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td bgcolor="brouw">87892725897349754</td><th bgcolor="red" colspan="2">المجموع</th>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="https://www.facebook.com" target="_blank">facebook</a>
+    <img 
+    src="data:image/png;base64,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"
+    alt="لم يتم العثور علي الصورة " 
+    width="500px">
+    <video src="./سالت نفسي كتير - مسلسل مستر روبوت.mp4" controls poster="./بضان الفصل.jpg">
+    </video>
+    <audio src="./كترت بينا الوشوش - حمز نمرة.mp3" controls muted preload="metadata" >
+    </audio> 
+    <ol type="A" dir="rtl" >
+        <li>ahmed</li>
+        <li>mohamed</li>
+        <li>omar</li>
+    </ol>
+    <ul type="square">
+        <li>ahmed</li>
+        <li>mohamed</li>
+        <li>omar</li>
+    </ul>
+<dl>
+    <dt>whats your name sir</dt>
+    <dd>ahmed</dd>
+    <dd>ahmed</dd>
+    <dd>ahmed</dd>
+    <dd>ahmed</dd>
+    <dd>ahmed</dd>
+    <dd>ahmed</dd>
+    <dd>ahmed</dd>
+</dl>
+<details>
+    <summary>
+        title
+    </summary>
+    <p>ahmed</p>
+    <p>mohamed</p>
+    <P>ali</P>
+    <img src="https://v.3bir.net/3bir/web/a/23513_11179166444.gif" alt="لايوجد صورة برجاء اعادة المحاولة مرة اخرة ">
+
+</details>
+<p><embed dir="rtl" src="https://v.3bir.net/3bir/web/a/23513_11179166444.gif" type=""></p>
+<video src="./videoplayback.mp4" controls></video> -->
+
+    <!-- <form action="" method="POST">
+<p><input type="password" placeholder="password"></p>
+<p><input type="text" placeholder="email"></p>
+<br> <!-- دي علشان نعمل مسافة  -->
+    <!-- دي علشان نعمل خط -->
+    <!-- <label for="">mail</label>
+<input type="radio" value="mail" name="a" checked> -->
+    <!--
+    autofocus ==> دي زي checked بس دي علي ان بوت الاسم و الرقم و الباسورد والكلام ده كلة
+    checked ==> دي بنعلمها عشان نحدد العنصر ده هيشتغل تلقائي 
+-->
+    <!-- <label for="">female</label>
+<input type="radio" value="female" name="a" >
+<input type="checkbox">fdf
+<input type="submit">
+</form> -->
+    <h1>
+        Learn How TO Learn
+    </h1>
+    <form>
+        <div><label class="u">Username</label>
+            <input class="t" type="text" required autofocus>
+        </div>
+        <p> <label class="p">Password</label>
+            <input class="pa" type="password">
+        </p>
+        <input class="sub" type="submit" value="Send">
+    </form>
+</body>
+
+</html>

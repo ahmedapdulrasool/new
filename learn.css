@@ -1,0 +1,45 @@
+h1 {
+    color: rgb(141, 206, 22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    direction: ltr;
+    background-image: url(./davisuko-5E5N49RWtbA-unsplash.jpg);
+}
+
+body{
+    background-image: url(./ed-van-duijn-2uTjeMfeVEU-unsplash.jpg);
+}
+
+form{
+    text-align: center;
+    color: rgb(227 240 21);
+    margin-top: 90px;
+    font-size: 22px;
+    margin-left: -35px;
+}
+
+div{
+    margin-bottom: -13px;
+    margin-left: -1px;
+    
+}
+
+.t{
+    font-size: 18px;
+}
+
+.pa{
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.sub{
+    margin-right: -76px;
+    text-align: center;
+    font-size: large;
+    color: blue;
+    background-color: rgb(14, 202, 70);
+}
